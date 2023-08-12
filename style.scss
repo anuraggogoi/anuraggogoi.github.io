@@ -1,0 +1,57 @@
+body {
+    font-family: Bebas Neue !important;
+}
+
+.hero {
+    background: url("https://imgix.bustle.com/uploads/shutterstock/2021/12/2/3017432c-45c0-4546-9b7b-10cfdcf11a0a-shutterstock-764972128.jpg?w=1200&h=630&fit=crop&crop=focalpoint&fm=jpg&fp-x=0.4827&fp-y=0.452");
+    object-fit: cover;
+    background-size: cover;
+    .overlay {
+        position: absolute;
+        background: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.719), 
+            transparent
+          );
+        width: 100%;
+        height: 100%;
+    }
+    h1 {
+        z-index: 1;
+    }
+}
+
+.section {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 3rem;
+    height: 100vh;
+    h1 {
+        font-size: 5rem;
+    }
+    p {
+        font-size: 1.2rem;
+        font-family: poppins;
+    }
+
+}
+
+.exoplanets {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    .planet {
+        p {
+            color: rgb(208, 208, 208);
+            font-size: 1rem;
+        }
+        img {
+            border-radius: 1rem;
+        }
+    }
+}
+a {
+    font-family: arial;
+    text-decoration: none !important;
+
+}
